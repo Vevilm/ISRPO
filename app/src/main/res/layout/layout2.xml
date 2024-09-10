@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/blue"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/orange"
+        android:padding="@dimen/padding"
+        android:text="@string/Button1"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="@dimen/fontsize" />
+
+    <Button
+        android:id = "@+id/btn2"
+        android:text="@string/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/orange"
+        android:padding="@dimen/padding"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="@dimen/fontsize" />
+        />
+    <Button
+        android:id = "@+id/btn3"
+        android:text="@string/Button3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/orange"
+        android:padding="@dimen/padding"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="@dimen/fontsize" />
+        />
+    <Button
+        android:id = "@+id/btn4"
+        android:text="@string/Button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/orange"
+        android:padding="@dimen/padding"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="@dimen/fontsize" />
+        />
+</LinearLayout>
